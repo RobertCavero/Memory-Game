@@ -36,6 +36,7 @@
             this.btnModoNormal = new System.Windows.Forms.Button();
             this.btnModoDificil = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.printDialog1 = new System.Windows.Forms.PrintDialog();
             this.SuspendLayout();
             // 
             // btnReiniciar
@@ -102,6 +103,10 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.lblTempo_Click);
             // 
+            // printDialog1
+            // 
+            this.printDialog1.UseEXDialog = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -114,7 +119,7 @@
             this.Controls.Add(this.lblTempo);
             this.Controls.Add(this.btnReiniciar);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Jogo da Memória";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -129,6 +134,7 @@
         private System.Windows.Forms.Button btnModoNormal;
         private System.Windows.Forms.Button btnModoDificil;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.PrintDialog printDialog1;
     }
 }
 
