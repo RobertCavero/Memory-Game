@@ -52,7 +52,7 @@ namespace memory
         {
             //limpa o espaço ocupado pelas cartas anteriores
             LimparPictureBoxes();
-            SoundPlayer player = new SoundPlayer("audio/tema.wav");
+            SoundPlayer player = new SoundPlayer("audio/EricSkiff-ANightOfDizzySpells.wav");
             player.Play();
 
             int[] cartas = { 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6 };
@@ -148,7 +148,7 @@ namespace memory
         {
             //limpa o espaço ocupado pelas cartas anteriores
             LimparPictureBoxes();
-            SoundPlayer player = new SoundPlayer("audio/tema_dificil.wav");
+            SoundPlayer player = new SoundPlayer("audio/JoshuaMcLean_MountainTrials.wav");
             player.Play();
 
             int[] cartas = { 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8 };
@@ -226,7 +226,7 @@ namespace memory
         private void Fim(String mensagem)
         {
             //final bom
-            SoundPlayer player = new SoundPlayer("audio/vitoria.wav");
+            SoundPlayer player = new SoundPlayer("audio/AdhesiveWombat_NightShade.wav");
             player.Play();
             timer1.Stop();
             gameover = true;
@@ -275,7 +275,7 @@ namespace memory
             if (contagemRegressiva == 0)
             {  
                 timer1.Stop();
-                SoundPlayer player = new SoundPlayer("audio/perdeu.wav");
+                SoundPlayer player = new SoundPlayer("audio/JimmyFontanez-DubHub.wav");
                 player.Play();
                 MessageBox.Show("Acabou o tempo.", "FIM");
                 
