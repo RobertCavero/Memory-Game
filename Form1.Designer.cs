@@ -62,11 +62,11 @@
             // lblTentativas
             // 
             this.lblTentativas.AutoSize = true;
-            this.lblTentativas.Location = new System.Drawing.Point(492, 161);
+            this.lblTentativas.Location = new System.Drawing.Point(525, 167);
             this.lblTentativas.Name = "lblTentativas";
-            this.lblTentativas.Size = new System.Drawing.Size(73, 16);
+            this.lblTentativas.Size = new System.Drawing.Size(42, 16);
             this.lblTentativas.TabIndex = 2;
-            this.lblTentativas.Text = "Tentativas:";
+            this.lblTentativas.Text = "Erros:";
             this.lblTentativas.Click += new System.EventHandler(this.lblPontos_Click);
             // 
             // txtPontos
